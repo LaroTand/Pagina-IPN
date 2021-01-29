@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Favicons-->
+    <link rel="shortcut icon" href="img/logobienhecho.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    
+    <!-- CSS -->
+    <link href="css/base.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link href="css/slider-pro.min.css" rel="stylesheet">
+    <link href="css/date_time_picker.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/owl.theme.css" rel="stylesheet">
+    
+     <!-- Google web fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+   <!-- REVOLUTION SLIDER CSS -->
+    <link href="rs-plugin/css/settings.css" rel="stylesheet">
+    <link href="css/extralayers.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container margin_60">
+		<div class="row">
+            
+	    </div><!-- End row  -->
+    </div>
+
+ <!-- Common scripts -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/common_scripts_min.js"></script>
+<script src="js/functions.js"></script>
+
+ <!-- Specific scripts -->
+<script src="js/icheck.js"></script>
+<script>
+$('input').iCheck({
+   checkboxClass: 'icheckbox_square-grey',
+   radioClass: 'iradio_square-grey'
+ });
+ </script>
+ <!-- Date and time pickers -->
+<script src="js/jquery.sliderPro.min.js"></script>
+<script type="text/javascript">
+	$( document ).ready(function( $ ) {
+		$( '#Img_carousel' ).sliderPro({
+			width: 960,
+			height: 500,
+			fade: true,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			smallSize: 500,
+			startSlide: 0,
+			mediumSize: 1000,
+			largeSize: 3000,
+			thumbnailArrows: true,
+			autoplay: false
+		});
+	});
+</script>
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/revolution_func.js"></script>
+
+ <!-- Date and time pickers -->
+ <script src="js/bootstrap-datepicker.js"></script>
+ <script>
+  $('input.date-pick').datepicker('setDate', 'today');
+   </script>
+ <!-- Map -->
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAMrybJnAA6ofR5SVCGZzCVR8_xDlhpArE'></script>
+<script src="js/zac/map.js"></script>
+<script src="js/infobox.js"></script>
+
+ <!-- Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function(){   
+		$(".carousel").owlCarousel({
+		items : 3,
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall : [979,3]
+		});
+    });
+</script>
+
+<!--Review modal validation -->
+<script src="assets/validate.js"></script>
+</body>
+</html>
