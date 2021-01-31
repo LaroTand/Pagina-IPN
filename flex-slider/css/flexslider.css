@@ -44,12 +44,19 @@
   margin: 0;
   padding: 0;
 }
+
+ul.slides.egresados li{
+  margin-right: 0 !important;
+  opacity: inherit !important;
+  width: auto !important;
+}
+
 .flexslider .slides > li {
-  display: none;
+  /* display: none; */
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 100%;
+  width: 100%; 
   display: block;
 }
 .flexslider .slides:after {
