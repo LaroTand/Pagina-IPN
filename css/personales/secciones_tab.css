@@ -17,7 +17,7 @@
 }
 .tab-link {
     flex-grow: 1;
-    width: calc(100% / 9);
+    width: calc(100% / 5);
     list-style: none;
     padding: 10px 40px;
     color: rgba(224, 79, 103, 0.5);
@@ -202,6 +202,26 @@ h5 {
 .carousel .item img {
     height: 250px;
 }
+
+ul.convivencia-slider li{
+    background-color: #f9f9f9;
+}
+
+.convivencia-slide-container{
+    margin-top: 80px;
+}
+
+ul.convivencia-slider .convivencia-images{
+    padding-right: 30px;
+}
+
+ul.convivencia-slider .convivencia-images img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: auto;
+}
+
 @supports (object-fit: cover) {
     .carousel .item img {
         width: 100%;
@@ -229,3 +249,4 @@ h5 {
         display: block;
     }
 }
+
