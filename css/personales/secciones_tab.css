@@ -128,6 +128,17 @@ div.headers_logro h4 {
     text-align: inherit;
 }
 
+.tab-content .row{
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.row.logro-tab{
+    margin-top: 0;
+}
+
 div.container-investigacion {
     display: inline;
 }
