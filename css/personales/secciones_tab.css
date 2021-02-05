@@ -17,7 +17,7 @@
 }
 .tab-link {
     flex-grow: 1;
-    width: calc(100% / 5);
+    /* width: calc(100% / 5); */
     list-style: none;
     padding: 10px 40px;
     color: rgba(224, 79, 103, 0.5);
@@ -128,14 +128,14 @@ div.headers_logro h4 {
     text-align: inherit;
 }
 
-.tab-content .row{
+.tab-content .row {
     width: 100%;
     margin: 0;
     margin-top: 20px;
     padding: 20px;
 }
 
-.row.logro-tab{
+.row.logro-tab {
     margin-top: 0;
 }
 
@@ -307,26 +307,35 @@ ul.convivencia-slider .convivencia-images img {
     right: 0;
 }
 
-.carousel-inner.vertical>.item>img{
+.carousel-inner.vertical > .item > img {
     height: 250px;
 }
 
-.carousel-inner.convivencia-slider>.item{
+.carousel-inner.convivencia-slider > .item,
+.carousel-inner.eventos-slider > .item {
     padding-left: 35px;
     margin: 0;
 }
 
-.convivencia-slide-container .row.convivencia-images{
+.convivencia-slide-container .row.convivencia-images,.eventos-slide-container .row.eventos-images {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 50px;
 }
 
-#carousel-pager .carousel-control.left {
+.row.eventos-text p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#carousel-pager .carousel-control.left,
+#carousel-pager-eventos .carousel-control.left {
     bottom: initial;
     width: 100%;
 }
-#carousel-pager .carousel-control.right {
+
+#carousel-pager .carousel-control.right,
+#carousel-pager-eventos .carousel-control.right {
     top: initial;
     width: 100%;
 }
