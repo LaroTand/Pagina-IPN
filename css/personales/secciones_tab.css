@@ -164,14 +164,6 @@ div.gen h4 {
     text-align: center;
 }
 
-.row.movilidad {
-    display: flex;
-}
-
-.row.movilidad .col-3 {
-    width: 30%;
-}
-
 .movilidad--text {
     text-align: center;
     padding: 0 30px;
@@ -187,23 +179,18 @@ div.gen h4 {
     margin: 10px auto;
 }
 
-.hr-vertical {
+.row.movilidad .hr-vertical {
     border: none;
     border-left: 0.5px solid;
     height: 650px;
     width: 0.5px;
-    margin-right: 15px;
-    margin-top: 30px;
+    margin: 0;
 }
 
 .movilidad--experiencias .item {
     text-align: center;
     margin: 0 auto;
     width: 50%;
-}
-
-.row.movilidad .col-7 {
-    width: 70%;
 }
 
 div.datos_egresado > h4,
@@ -365,5 +352,20 @@ ul.convivencia-slider .convivencia-images img {
         width: 100%;
         height: 100%;
         display: block;
+    }
+    .movilidad--experiencias .carousel.magnific-gallery .item img{
+        width: 100%;
+    }
+
+    .movilidad--experiencias .item{
+        width: initial;
+    }
+
+    .movilidad--text{
+        padding: 0;
+    }
+
+    .row.movilidad .hr-vertical{
+        display: none;
     }
 }
