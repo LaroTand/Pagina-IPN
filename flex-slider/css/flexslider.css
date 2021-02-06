@@ -46,7 +46,6 @@
 }
 
 ul.slides.egresados li{
-  margin-right: 0 !important;
   opacity: inherit !important;
   width: auto !important;
 }

@@ -201,6 +201,14 @@ h5 {
     height: 250px;
 }
 
+.carousel-personas .item img{
+    height: 120px;
+}
+
+.carousel-egresados-data .carousel-inner .item img{
+    width: auto;
+}
+
 /* ul.convivencia-slider li {
     background-color: #f9f9f9;
 }
@@ -222,6 +230,7 @@ ul.convivencia-slider .convivencia-images img {
 
 .carousel-inner.vertical {
     height: 100%; /*Note: set specific height here if not, there will be some issues with IE browser*/
+    cursor: pointer;
 }
 .carousel-inner.vertical > .item {
     -webkit-transition: 0.6s ease-in-out top;
@@ -367,5 +376,9 @@ ul.convivencia-slider .convivencia-images img {
 
     .row.movilidad .hr-vertical{
         display: none;
+    }
+
+    .carousel-egresados-data .carousel-inner .item img{
+        width: 100%;
     }
 }
