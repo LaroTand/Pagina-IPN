@@ -4720,3 +4720,8 @@ a.btn_infobox:hover, .btn_infobox:hover{
 .marker_tools{
 	margin:10px 0 15px 0;
 }
+
+.owl-carousel {
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+}

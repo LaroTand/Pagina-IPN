@@ -35,7 +35,7 @@ window.addEventListener('load', () =>
 	/**
 	* event next button
 	*/
-	next.addEventListener('click', (evt) => 
+	/*next.addEventListener('click', (evt) => 
 	{
 		evt.preventDefault();
 		slide++;
@@ -48,11 +48,11 @@ window.addEventListener('load', () =>
 			showSlide(slide);
 		}
 		
-	})
+	})*/
 	/** 
 	* event prev button
 	*/
-	prev.addEventListener("click", (evt) => 
+	/*prev.addEventListener("click", (evt) => 
 	{
 		evt.preventDefault();
 		slide--;
@@ -66,7 +66,7 @@ window.addEventListener('load', () =>
 		}
 		
 	})
-
+*/
 	function showSlide(n) 
 	{
 		n--; // decrement 1
