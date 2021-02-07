@@ -349,6 +349,12 @@ ul.convivencia-slider .convivencia-images img {
     }
 }
 
+@media (max-width: 991px){
+    .row.movilidad .hr-vertical{
+        display: none;
+    }
+}
+
 @media (max-width: 700px) {
     li.tab-link {
         flex: 100%;
@@ -372,10 +378,6 @@ ul.convivencia-slider .convivencia-images img {
 
     .movilidad--text{
         padding: 0;
-    }
-
-    .row.movilidad .hr-vertical{
-        display: none;
     }
 
     .carousel-egresados-data .carousel-inner .item img{
