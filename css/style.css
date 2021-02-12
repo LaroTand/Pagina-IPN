@@ -2322,6 +2322,7 @@ a.btn_collapse {
 /* Carousel */
 .carousel .item {
 	margin: 3px;
+	cursor: pointer;
 }
 
 .carousel .item img {
