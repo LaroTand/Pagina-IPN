@@ -145,9 +145,15 @@ div.container-investigacion {
 div.container-investigacion img {
     float: left;
     width: 30%;
-    height: 25%;
+    object-fit: cover;
+    height: 180px;
     margin-right: 5px;
 }
+
+div.texto_investigacion{
+    min-height: 180px;
+}
+
 div.texto_investigacion h4,
 h5 {
     margin: 0;
