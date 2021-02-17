@@ -139,6 +139,19 @@ div.headers_logro h4 {
     margin-top: 0;
 }
 
+.laboratorios-section .item .lab-text{
+    margin-top: 10px;
+}
+
+.laboratorios-section .lab-video{
+    height: 250px;
+}
+
+.laboratorios-section .lab-video video{
+    position: initial;
+    height: 100%;
+}
+
 div.container-investigacion {
     display: inline;
 }
