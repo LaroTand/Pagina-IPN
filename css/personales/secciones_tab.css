@@ -20,7 +20,7 @@
     /* width: calc(100% / 5); */
     list-style: none;
     padding: 10px 40px;
-    color: rgba(224, 79, 103, 0.5);
+    color: rgba(174, 50, 90, 0.5);
     cursor: pointer;
     font-size: 12px;
     font-weight: 700;
@@ -37,13 +37,13 @@
 }
 
 .tab-link:hover {
-    color: rgba(224, 79, 103, 1);
-    border-bottom: solid 2px rgba(224, 79, 103, 1);
+    color: rgba(174, 50, 90, 1);
+    border-bottom: solid 2px rgba(174, 50, 90, 1);
 }
 
 .tab-link.active {
-    color: rgba(224, 79, 103, 1);
-    border-bottom: solid 2px rgba(224, 79, 103, 1);
+    color: rgba(174, 50, 90, 1);
+    border-bottom: solid 2px rgba(174, 50, 90, 1);
 }
 
 .tab-content {
@@ -143,11 +143,11 @@ div.headers_logro h4 {
     margin-top: 10px;
 }
 
-.laboratorios-section .lab-video{
+.lab-video{
     height: 250px;
 }
 
-.laboratorios-section .lab-video video{
+.lab-video video{
     position: initial;
     height: 100%;
 }
