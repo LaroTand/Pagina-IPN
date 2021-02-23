@@ -2348,8 +2348,14 @@ ul.list_icons li i {
 	font-size: 16px;
 }
 
-.modal-dialog {
+.modal .modal-dialog {
 	margin-top: 80px;
+	left: initial;
+	width: fit-content;
+}
+
+.modal .planImg{
+	width: 80vw;
 }
 
 #price_single_main.hotel {
@@ -4717,6 +4723,8 @@ a.btn_infobox, .btn_infobox{
 a.btn_infobox:hover, .btn_infobox:hover{
 	background: #333;
 }
+
+
 
 .marker_tools{
 	margin:10px 0 15px 0;
