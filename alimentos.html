@@ -1050,11 +1050,11 @@
                                                     </tr>
                                                     <tr>
                                                         <td id="tdImgen" colspan="2" width="300px">
-                                                            <img id="IagenTT" src="./img/alimentos/TT2/que.jpg" alt="Image" class="imgTT" />
+                                                            <img id="IagenTT" src="./img/alimentos/TT2/TT1.jpeg" alt="Image" class="imgTT" />
                                                         </td>
                                                     </tr>
                                                     <tr align="center">
-                                                        <td colspan="2" class="tdTTCuerpo" id="NombreTT"><b>Nombre: </b>Pepe</td>
+                                                        <td colspan="2" class="tdTTCuerpo" id="NombreTT"><b>Nombre: </b>Nicté Contreras</td>
                                                     </tr>
                                                     <tr align="center">
                                                         <td colspan="2" class="tdTTCuerpo" id="tipoTT"><b>Tipo: </b>TT</td>
@@ -2184,7 +2184,7 @@
                                                             <div class="eventos-slide-container">
                                                                 <div class="row eventos-text">
                                                                     <div class="col-md-12">
-                                                                        <h4>Nombre</h4>
+                                                                        <h4>Kermes</h4>
                                                                         <p>
                                                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis
                                                                             vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie
@@ -2196,7 +2196,7 @@
                                                                 </div>
                                                                 <div class="row eventos-images">
                                                                     <div class="col-md-6">
-                                                                        <img src="./img/alimentos/EventosAcademicos/image1.jpg" />
+                                                                        <img src="./img/alimentos/EventosAcademicos/evento1.jpeg" />
                                                                     </div>
                                                                     <div class="col-md-6">
                                                                         <img src="./img/alimentos/EventosAcademicos/image1.jpg" />
@@ -2826,6 +2826,25 @@
                     autoplay: false,
                 })
             })
+        </script>
+        <script>
+            const pattern = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight"]
+            let current = 0
+
+            const keyHandler = function (event) {
+                if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
+                    current = 0
+                    return
+                }
+
+                current++
+
+                if (pattern.length === current) {
+                    current = 0
+                    alert("Te haz encontrado con una maruchan. Atte: J. Edwin")
+                }
+            }
+            document.addEventListener("keydown", keyHandler, false)
         </script>
         
 
